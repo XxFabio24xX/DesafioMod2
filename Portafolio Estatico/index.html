@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio de Fabio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">Sobre mi...</a>
+            </li>
+            <li>
+                <a href="#education">Educación</a>
+            </li>
+            <li>
+                <a href="#projects">Proyectos</a>
+            </li>
+            <li>
+                <a href="#skills">Habilidades</a>
+            </li>
+            <li>
+                <a href="#contact">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <img
+          class="profile__img shadow"
+          src="images/perfil.png" height="200" width="200"
+          alt="Foto perfil Fabio Escudero(XxFabio24xX)"
+        />
+            <h1>Fabio Escudero</h1>
+            <h2>Estudiante de Programación</h2>
+            <a href="#" class="btn-rounded-white">Descargar resumen</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Sobre Mi</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Hola, soy Fabio.
+                    </p>
+                    <p>
+                        Tengo 21 años, este año empezé mi carrera en Ingenieria en Sistemas de la Información. Me gusta mucho la tecnologia y aprender cosas nuevas, también tengo conocimiento en hardware de computadoras.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="education">
+        <h2 class="heading">Educación</h2>
+        <div class="education-block">
+            <h3>Universidad Tecnológica Nacional</h3>
+            <span class="education-date">Mar 2022 - Presente</span>
+            <h4>Ingeniería en Sistemas de la Información</h4>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Instituto Saber</h3>
+            <span class="education-date">Jun 2019 - Dic 2019</span>
+            <h4>Curso AutoCad 2D y 3D</h4>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Colegio Nuestra Señora de la Misericordia</h3>
+            <span class="education-date">Feb 2013 - Dic 2018</span>
+            <h4>Secundario con orientación en Humanidades</h4>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Proyectos</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/CapturaPagina.png" height="300" width="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Desafío Portafolio estático</h3>
+                        <p>
+                            Este proyecto se basa en ver y modificar un proyecto que tiene implementado un porfolio estático.
+                        </p>
+                        <a href="#">Ver Proyecto</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Habilidades</h2>
+        <ul>
+            <li>AutoCad 2D</li>
+            <li>AutoCad 3D</li>
+            <li>Técnico Pc</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>Css</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Contacto</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Su correo" required>
+                <textarea name="message" placeholder="Su mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> XxFabio24xX
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/XxFabio24xX" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/fabiooescudero" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
